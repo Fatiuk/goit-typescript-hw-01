@@ -1,5 +1,5 @@
-function add(num1: number, num2: number) {
-  return num1 + num2;
+function concatenation(firstWord: string, secondWord: string) {
+  console.log(`${firstWord} ${secondWord}`);
 }
 
-add(2, 3);
+export { concatenation };
